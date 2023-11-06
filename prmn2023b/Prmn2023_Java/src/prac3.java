@@ -18,8 +18,6 @@ public class prac3 {
         String gakuseki = scan.next();
 
         login1 g = new login1();
-        String password = g.equals(number,gakuseki);
-
-        g.password(number,password);
+        g.equals(number,gakuseki);
     }
 }
